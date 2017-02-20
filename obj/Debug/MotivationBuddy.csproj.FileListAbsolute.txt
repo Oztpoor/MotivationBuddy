@@ -1,0 +1,14 @@
+c:\users\ladisla\documents\visual studio 2015\Projects\MotivationBuddy\MotivationBuddy\bin\Debug\MotivationBuddy.exe.config
+C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\bin\Debug\MotivationBuddy.exe.config
+C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\bin\Debug\MotivationBuddy.exe
+C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\bin\Debug\MotivationBuddy.pdb
+C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\bin\Debug\EloBuddy.dll
+C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\bin\Debug\EloBuddy.Sandbox.dll
+C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\bin\Debug\EloBuddy.SDK.dll
+C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\bin\Debug\SharpDX.dll
+C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\bin\Debug\SharpDX.XInput.dll
+C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\obj\Debug\MotivationBuddy.csprojResolveAssemblyReference.cache
+C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\obj\Debug\MotivationBuddy.exe
+C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\obj\Debug\MotivationBuddy.pdb
