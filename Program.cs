@@ -30,7 +30,7 @@ namespace MotivationBuddy
         public static void Loading_OnLoadingComplete(EventArgs args)
         {
             Chat.Print("Motivation buddy loaded!", System.Drawing.Color.Violet);
-            Chat.Say("/all Good luck and have Fun!");
+            Chat.Say("/all Bom jogo");
 
             Menus.CreateMenu();
             Game.OnTick += Game_OnTick;
@@ -40,7 +40,7 @@ namespace MotivationBuddy
 
         private static void Game_OnEnd(EventArgs args)
         {
-            Chat.Say("Good game, I had much fun!");
+            Chat.Say("Bom jogo! Valeu ai");
         }
 
         private static void Game_OnTick(EventArgs args)
@@ -62,7 +62,7 @@ namespace MotivationBuddy
                     case GameEventId.OnChampionKill:
                         if ((Sender == AllyK.NetworkId || Sender == AllyD.NetworkId ) && Sender != myhero.NetworkId)
                         {
-                            string[] Motivation1 = { "Boa!", "Mandou bem", "Show", "Mandou muito cara!", "Arrasou","Rexpeita o cara!", "Rx rx rx hehehe", "gj", "wp", "gj wp", "Show de bola", "Destruiu!", "boa mané!", "Sinistro!", "Boa!!!!!", "Bora mané!", "Niçu!", "Nice!", "mandou muito bem", "Carrega nóis :)", "Carrega nóis!!!!", "gg já!", "Manda muito!", "RX", "É o QUEIJO!", "é O Q?", "temos um Djoko hehe"};
+                            string[] Motivation1 = { "Boa!", "Mandou bem", "Show", "Mandou muito cara!", "Arrasou","Rexpeita o cara!", "Rx rx rx hehehe", "gj", "wp", "gj wp", "Show de bola", "Destruiu!", "boa mane", "Sinistro!", "Boa!!!!!", "Bora mane!", "Nissu!", "Nice!", "mandou muito bem", "Carrega nois :)", "Carrega nois!!!!", "gg ja!", "Manda muito!", "RX", "eh o QUEIJO!", "eh O Q?", "temos um Djoko hehe", "Oxi!!!!", "Isso ai mane!", "eh pro eh?", "eh o faker hehe :P", "Joga muito!", "Eita ferro", "O loko meu", "Taputo", "Ta putasso", "EOQ", "Segura!!!", "Disseram q tem q elogiar, entao bora: Manda muito!", "Bora sempre ter atitudes positivas!", "honra ae, pls", "Sempre eh bom elogiar", "Posso ser chato, mas nao sou rager", "Ragers nao passarao!", "Aqui é positividade sempre!", "Bora criar um ambiente sem ragers", "A comunidade precisa de positividade", "Nao sei jogar nao", "To aprendendo ainda", "mal ai, to aprendendo", "nao sei jogar isso nao", "Isso aqui eh mto dificil", "esse bixu pe mto complicado", "To aprendendo, calma ae", "Desculpa qq coisa, to aprendendo"};
 
                             Random RandName = new Random();
                             string Temp1 = Motivation1[RandName.Next(0, Motivation1.Length)];
@@ -80,7 +80,7 @@ namespace MotivationBuddy
                     case GameEventId.OnChampionDie:
                         if ((Sender == AllyD.NetworkId || Sender == AllyK.NetworkId) && Sender != myhero.NetworkId)
                         {
-                            string[] Motivation2 = { "Vamos time!", "relaxa, nos vamos ganhar", "Rlx", "Noobou, cinzou ae hehe :P", "Bora ganhar essa porra", "vamos q vamos, relaxa", "Acontece, relaxa", "Vamos q vamos ae!", "é só ter pensamento positivo :)", "A gente ganha", "Essa partida é nossa!", "hora de acabar com eles hein!", "só nao podemos dar mais mole!", "boraganhar hauahua", "ÉOQ", "soled hehehe", "éoqueijo!", "Circo de.... hehe", "... deitou"};
+                            string[] Motivation2 = { "Vamos time!", "relaxa, nos vamos ganhar", "Rlx", "Noobou, cinzou ae hehe :P", "Bora ganhar essa porra", "vamos q vamos, relaxa", "Acontece, relaxa", "Vamos q vamos ae!", "eh so ter pensamento positivo :)", "A gente ganha", "Essa partida eh nossa!", "hora de acabar com eles hein!", "so nao podemos dar mais mole!", "boraganhar hauahua", "eOQ", "soled hehehe", "eoqueijo!", "Circo de.... hehe", "... deitou", "Desculpa, ainda to aprendendo a jogar!", "mal time, ainda to aprendendo os paranaue", "ai ai ai", "ei ei ei", "ei vc ai heheh", "complicado"};
 
                             Random RandName = new Random();
                             string Temp2 = Motivation2[RandName.Next(0, Motivation2.Length)];
@@ -107,7 +107,7 @@ namespace MotivationBuddy
                     case GameEventId.OnChampionDie:
                         if (Sender == Enemy.NetworkId || Sender == EnemyD.NetworkId || Sender == EnemyDD.NetworkId || Sender == EnemyDDD.NetworkId || Sender != myhero.NetworkId)
                         {
-                            string[] Tilt2 = { "/all ggwp" };
+                            string[] Tilt2 = { "" };
 
                             Random RandName = new Random();
                             string Temp2 = Tilt2[RandName.Next(0, Tilt2.Length)];

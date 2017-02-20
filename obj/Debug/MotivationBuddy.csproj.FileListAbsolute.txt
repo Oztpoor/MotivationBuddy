@@ -12,3 +12,6 @@ C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\obj\Debug\MotivationBuddy.csprojResolveAssemblyReference.cache
 C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\obj\Debug\MotivationBuddy.exe
 C:\Users\Oswaldo Castro\Desktop\MotivationBuddy\obj\Debug\MotivationBuddy.pdb
+C:\Users\Oswaldo Castro\Desktop\Arquivo\LOL\Macros\MotivationBuddy\bin\Debug\MotivationBuddy.exe.config
+C:\Users\Oswaldo Castro\Desktop\Arquivo\LOL\Macros\MotivationBuddy\obj\Debug\MotivationBuddy.exe
+C:\Users\Oswaldo Castro\Desktop\Arquivo\LOL\Macros\MotivationBuddy\obj\Debug\MotivationBuddy.pdb
